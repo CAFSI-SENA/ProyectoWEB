@@ -155,52 +155,48 @@ namespace MITienda2.Models
                 new Product
                 {
                     ProductID = 12,
-                    ProductName = "Old Style Racer",
-                    Description = "This old style racer can fly (with user assistance). Gravity" +
-                    "controls flight duration.",
-                    ImagePatch = "carracer.png",
-                    UnitPrice = 34.95,
-                    CategoryID = 1
+                    ProductName = "Big Truck",
+                    Description = "This fun toy truck can be used to tow other trucks that are not as big.",
+                    ImagePatch = "truckbig.png",
+                    UnitPrice = 29.00,
+                    CategoryID = 3
                 },
                 new Product
                 {
-                    ProductID = 5,
-                    ProductName = "Old Style Racer",
-                    Description = "This old style racer can fly (with user assistance). Gravity" +
-                    "controls flight duration.",
-                    ImagePatch = "carracer.png",
-                    UnitPrice = 34.95,
-                    CategoryID = 1
+                    ProductID = 13,
+                    ProductName = "Big Ship",
+                    Description = "Is it a boat or a ship. Let this floating vehicle decide by using its.",
+                    ImagePatch = "boatbig.png",
+                    UnitPrice = 95.00,
+                    CategoryID = 4
                 },
                 new Product
                 {
-                    ProductID = 5,
-                    ProductName = "Old Style Racer",
-                    Description = "This old style racer can fly (with user assistance). Gravity" +
-                    "controls flight duration.",
-                    ImagePatch = "carracer.png",
-                    UnitPrice = 34.95,
-                    CategoryID = 1
+                    ProductID = 14,
+                    ProductName = "Paper Boat",
+                    Description = "Floating fun for all! This toy boat can be assembled in seconds. Floats for miutes!" +
+                    "Some folding required.",
+                    ImagePatch = "boatpaper.png",
+                    UnitPrice = 4.95,
+                    CategoryID = 4
                 },
                 new Product
                 {
-                    ProductID = 5,
-                    ProductName = "Old Style Racer",
-                    Description = "This old style racer can fly (with user assistance). Gravity" +
-                    "controls flight duration.",
-                    ImagePatch = "carracer.png",
-                    UnitPrice = 34.95,
-                    CategoryID = 1
+                    ProductID = 15,
+                    ProductName = "Sail Boat",
+                    Description = "Put this fun toy sail boat in the water and let it go!.",
+                    ImagePatch = "boatsail.png",
+                    UnitPrice = 42.95,
+                    CategoryID = 4
                 },
                 new Product
                 {
-                    ProductID = 5,
-                    ProductName = "Old Style Racer",
-                    Description = "This old style racer can fly (with user assistance). Gravity" +
-                    "controls flight duration.",
-                    ImagePatch = "carracer.png",
-                    UnitPrice = 34.95,
-                    CategoryID = 1
+                    ProductID = 16,
+                    ProductName = "Rocket",
+                    Description = "This fun rocket will travel up to a height of 200 feet.",
+                    ImagePatch = "rocket.png",
+                    UnitPrice = 122.95,
+                    CategoryID = 5
                 }
             };
             return products;
