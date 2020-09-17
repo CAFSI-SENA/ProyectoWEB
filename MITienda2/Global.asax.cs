@@ -6,6 +6,8 @@ using System.Web.Optimization;
 using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
+using System.Data.Entity;
+using MITienda2.Models;
 
 namespace MITienda2
 {
@@ -16,6 +18,9 @@ namespace MITienda2
             // Código que se ejecuta al iniciar la aplicación
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            //Inicializar la base de datos Producto
+            Database.SetInitializer(new IniciarDBProduct());
         }
     }
 }
